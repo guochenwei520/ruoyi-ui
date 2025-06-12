@@ -11,7 +11,7 @@
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "https://www.abab.asia"
+          "value": "/*"
         },
         {
           "key": "Access-Control-Allow-Methods",
@@ -31,7 +31,7 @@
   "rewrites": [
     {
       "source": "/*",
-      "destination": "http://47.111.109.108:8080"
+      "destination": "/*"
     }
   ]
 }
