@@ -3,5 +3,11 @@
     "env": {
       "NODE_OPTIONS": "--openssl-legacy-provider"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://47.111.109.108:8080/api/:path*"
+    }
+  ]
 }
