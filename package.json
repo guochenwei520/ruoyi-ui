@@ -9,8 +9,7 @@
     "build:prod": "set NODE_OPTIONS=--openssl-legacy-provider & vue-cli-service build",
     "build:stage": "vue-cli-service build --mode staging",
     "preview": "node build/index.js --preview",
-    "lint": "eslint --ext .js,.vue src",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build"
+    "lint": "eslint --ext .js,.vue src"
   },
   "husky": {
     "hooks": {
@@ -90,7 +89,7 @@
     "vue-template-compiler": "2.6.12"
   },
   "engines": {
-    "node": "16.x",
+    "node": ">=8.9",
     "npm": ">= 3.0.0"
   },
   "browserslist": [
