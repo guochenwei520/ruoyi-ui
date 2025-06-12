@@ -30,8 +30,9 @@
   ],
   "rewrites": [
     {
-      "source": "/*",
-      "destination": "/*"
+      "source": "/(.*)",
+      "destination": "/index.html",
+      "method": ["GET", "POST", "PUT", "DELETE"]
     }
   ]
 }
